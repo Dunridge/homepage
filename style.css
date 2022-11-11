@@ -135,12 +135,14 @@ body {
     font-weight: 500;
 }
 
-.contactInfo.education h4 {
+.contactInfo.education h4,
+.contactInfo.education h4 a {
     color: #fff;
     font-weight: 300;
 }
 
-.contactInfo.language .certification {
+.contactInfo.language .certification,
+.contactInfo.language a {
     color: #03a9f4;
     font-size: 14px;
     display: block;
