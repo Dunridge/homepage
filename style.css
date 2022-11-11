@@ -144,16 +144,11 @@ body {
     font-weight: 300;
 }
 
-/* TODO: your own code  */
-
 .contactInfo.language .certification {
     color: #03a9f4;
     font-size: 14px;
     display: block;
 }
-
-/* --- */
-
 
 .contactInfo.language .percent {
     position: relative;
@@ -172,11 +167,7 @@ body {
     background: #03a9f4;
 }
 
-
-
-
-
-
+/* right side */
 
 .container .right_Side {
     position: relative;
