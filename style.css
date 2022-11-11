@@ -3,14 +3,12 @@
 
 /* TODO: later on extract the theme colors into variables and play around with color combinations */
 
-/* do a reset for the links */
+/* reset for the links */
 
 a, a:visited {
     color: black;
     text-decoration: none;
 }
-
-/* --- */
 
 * {
     margin: 0;
@@ -115,8 +113,6 @@ body {
     width: 10px;
     font-style: 18px;
     color: #03a9f4;
-
-    /* TODO: your own code, remove if it interfers */
     margin: 0 6px;
 }
 
