@@ -312,11 +312,25 @@
         <ul>
           <li><i class="fa fa-book" aria-hidden="true"></i> Pop phsychology</li>
           <li><i class="fa fa-gamepad" aria-hidden="true"></i> Video games<sup class="flow-animation">RPG</sup></li>
-          <li><i class="fa fa-music" aria-hidden="true"></i> Guitar <sup>5 years</sup></li>
+          <!-- TODO: comment out if the page is too laggy -->
+          <li onclick="onPlayback()" class="audio"><i class="fa fa-music" aria-hidden="true"></i> Guitar <sup>
+            5 years
+            <audio id="guitar-audio" controls src="audio/guitar.mp3">play</audio>
+          </sup></li>
         </ul>
       </div>
 
     </div>
   </div>
+
+  <script>
+
+    function onPlayback() {
+      // TODO: add the ability to stop and continue music 
+      var audio = document.getElementById("guitar-audio");
+      // console.log(audio);
+      audio.play();
+    }
+  </script>
 </body>
 </html>

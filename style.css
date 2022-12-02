@@ -340,6 +340,16 @@ p {
     color: #03a9f4;
 }
 
+/* TODO: configure audio display */
+
+.audio {
+    cursor: pointer;
+}
+
+#guitar-audio {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
