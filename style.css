@@ -370,7 +370,7 @@ p {
 }
 
 #guitar {
-    color: #03a9f4;
+    color: #03a9f4 !important;
 }
 
 #guitar-container {
@@ -378,5 +378,5 @@ p {
 }
 
 #guitar-container div:last-child {
-    display: none;
+    display: none !important;
 }
