@@ -1,4 +1,4 @@
-const guitar = document.getElementById("guitar");
+const guitarContainer = document.getElementById("guitar-container");
 const musicPlayer = document.getElementById("music-player");
 
 $(document).ready(
@@ -6,7 +6,7 @@ $(document).ready(
     var iframeElement = document.querySelector("iframe");
     var widget = SC.Widget(iframeElement);
 
-    guitar.addEventListener("click", () => {
+    guitarContainer.addEventListener("click", () => {
       widget.toggle();
     });
   })()
