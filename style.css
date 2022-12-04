@@ -368,3 +368,15 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+#guitar {
+    color: #03a9f4;
+}
+
+#guitar-container {
+    cursor: pointer;
+}
+
+#guitar-container div:last-child {
+    display: none;
+}
