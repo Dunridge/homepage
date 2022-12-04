@@ -370,6 +370,7 @@ p {
 }
 
 #guitar {
+    user-select: none; /*prevent user from highlighting*/
     color: #03a9f4 !important;
 }
 
