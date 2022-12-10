@@ -447,6 +447,107 @@ p {
     }
 }
 
+/* apply the animations */
+
+.angular {
+    width: 94%; 
+}
+
+.angular .start {
+    background-color: red !important;
+    animation: angular 1.3s linear; 
+    /* animation-iteration-count: 1; */
+}
+
+.rxjs {
+    width: 86%;
+}
+
+.rxjs .start {
+    animation: rxjs 1.3s linear; 
+    animation-iteration-count: 1;
+}
+
+.ngrx {
+    width: 75%;
+}
+
+.ngrx .start {
+    animation: ngrx 1.3s linear; 
+    animation-iteration-count: 1;
+}
+
+.js {
+    width: 95%;
+}
+
+.js .start {
+    animation: js 1.3s linear;
+    animation-iteration-count: 1;
+}
+
+.css {
+    width: 85%;
+}
+
+.css .start {
+    animation: css 1.3s linear; 
+    animation-iteration-count: 1;
+}
+
+.html {
+    width: 100%;
+}
+
+.html .start {
+    animation: html 1.3s linear; 
+    animation-iteration-count: 1;
+}
+
+.git {
+    width: 97%;
+}
+
+.git .start {
+    animation: git 1.3s linear; 
+    animation-iteration-count: 1;
+}
+
+.node {
+    width: 65%;
+}
+
+.node .start {
+    animation: node 1.3s linear;
+    animation-iteration-count: 1;
+}
+
+.python {
+    width: 55%;
+}
+
+.python .start {
+    animation: python 1.3s linear;
+    animation-iteration-count: 1;
+}
+
+.java {
+    width: 45%;
+}
+
+.java .start {
+    animation: java 1.3s linear;
+    animation-iteration-count: 1;
+}
+
+.csharp {
+    width: 35%;
+}
+
+.csharp .start {
+    animation: csharp 1.3s linear;
+    animation-iteration-count: 1;
+}
 
 /* --- */
 
