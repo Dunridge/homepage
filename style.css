@@ -334,6 +334,120 @@ p {
     }
 }
 
+/*skills*/
+
+@keyframes angular {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 94%;
+    }
+}
+
+@keyframes rxjs {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 86%;
+    }
+}
+
+@keyframes ngrx {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes git {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 97%;
+    }
+}
+
+
+@keyframes node {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes csharp {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+
+
 /* --- */
 
 .link {

@@ -1,6 +1,8 @@
 const guitarContainer = document.getElementById("guitar-container");
 const musicPlayer = document.getElementById("music-player");
 
+// get all skills
+
 $(document).ready(
   (function () {
     var iframeElement = document.querySelector("iframe");
@@ -11,5 +13,7 @@ $(document).ready(
       widget.setVolume(40);
       widget.toggle();
     });
+
+
   })()
 );
