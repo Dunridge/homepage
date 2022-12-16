@@ -3,6 +3,24 @@ const musicPlayer = document.getElementById("music-player");
 
 // get all skills
 
+function generatePDF() {
+  console.log('pdf generated');
+  console.log(html2pdf());
+
+  var element = document.getElementById('CV');
+  console.log(element);
+
+  var options = {
+    margin: 1, 
+    filename: 'maksym-polinka.pdf',
+    image: { type: 'jpeg', quality: 1 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait', precision: '12' }
+  }
+
+  html2pdf().set(options).from(element).save();
+}
+
 $(document).ready(
   (function () {
     var iframeElement = document.querySelector("iframe");
