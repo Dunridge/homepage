@@ -4,12 +4,9 @@ const musicPlayer = document.getElementById("music-player");
 // get all skills
 
 function generatePDF() {
-  console.log('pdf generated');
-  console.log(html2pdf());
-
   var element = document.getElementById('CV');
-  console.log(element);
 
+  // TODO: configure this options object to export correct pdf
   var options = {
     margin: 1, 
     filename: 'maksym-polinka.pdf',
