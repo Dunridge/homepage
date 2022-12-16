@@ -4,6 +4,11 @@ const musicPlayer = document.getElementById("music-player");
 // get all skills
 
 function generatePDF() {
+
+  console.log('export pdf format to be configured...')
+
+  return;
+
   var element = document.getElementById('CV');
 
   // TODO: configure this options object to export correct pdf
