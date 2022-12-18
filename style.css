@@ -43,6 +43,14 @@ body {
     padding: 40px;
 }
 
+#pdf-export {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
 .profileText {
     position: relative;
     display: flex;
@@ -54,6 +62,7 @@ body {
 
 .profileText .img8x {
     position: relative;
+    user-select: none;
     width: 200px;
     height: 200px;
     border-radius: 50%;

@@ -12,7 +12,7 @@
   <!-- <script defer> (function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('bElvO73y0dPaZMqj'); </script> -->
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="CV">
     <div class="left_Side">
       <div class="profileText">
         <div class="img8x">
@@ -170,6 +170,10 @@
     </div>
 
     <div class="right_Side">
+      <div id="pdf-export" onclick="generatePDF()">
+        <i class="fa fa-download" aria-hidden="true"></i>
+      </div>
+
       <div class="about">
         <h2 class="title2">Profile</h2>
         <p>Master's degree student in Computer engineering. Passionate about building intricate UIs</p>
@@ -329,6 +333,8 @@
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://w.soundcloud.com/player/api.js" ></script>
   <script src="scripts/script.js"></script>
