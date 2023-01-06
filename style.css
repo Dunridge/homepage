@@ -244,6 +244,15 @@ p {
     font-size: 16px;
 }
 
+.about .box .text-subhead {
+    font-weight: 600;
+}
+
+.about .box .text-stack {
+    font-weight: 600;
+    font-style: italic;
+}
+
 .skills .box {
     position: relative;
     width: 100%;
