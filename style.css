@@ -352,6 +352,38 @@ p {
     }
 }
 
+/*languages*/
+
+@keyframes english {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes ukrainian {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes polish {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
 /*skills*/
 
 @keyframes angular {
