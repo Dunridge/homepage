@@ -46,8 +46,8 @@ body {
 #pdf-export {
     cursor: pointer;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    top: 24px;
+    right: 24px;
     z-index: 100;
 }
 
