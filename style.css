@@ -524,6 +524,15 @@ p {
     color: #03a9f4;
 }
 
+/* TODO: figure out why does this trick not work here */
+.right_Side.md-size {
+    display: none;
+}
+
+.right_Side.md-size .about.interests {
+    display: inline;
+}
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
@@ -532,6 +541,50 @@ p {
 
     .interests ul {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .right_Side.md-size {
+        display: flex;
+        flex-direction: column;
+        margin: 40px -40px 0 -40px;
+    }
+
+    .right_Side.md-size .about.interests {
+        display: none;
+    }
+
+    .right_Side.original-display .about {
+        display: none;
+    } 
+
+    .right_Side.original-display .interests {
+        display: inline;
+    }
+
+    .right_Side.md-size .skills {
+        margin-bottom: 0;
+    }
+
+    .right_Side.original-display {
+        background: #003147;
+        /* color: white */
+    }
+
+    .right_Side.original-display .title2 {
+        color: white;
+        font-size: 18.72px;
+    }
+
+    .right_Side.original-display li {
+        color: white;
+    }
+
+    .right_Side.original-display #pdf-export {
+        display: none;
+    }
+
+    .left_Side {
+        padding-bottom: 0 !important;
     }
 }
 
