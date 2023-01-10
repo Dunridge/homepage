@@ -611,10 +611,12 @@ p {
     color: #03a9f4 !important;
 }
 
-#guitar-container {
+#guitar-container-1,
+#guitar-container-2 {
     cursor: pointer;
 }
 
-#guitar-container div:last-child {
+#guitar-container-1 div:last-child,
+#guitar-container-2 div:last-child {
     display: none !important;
 }
