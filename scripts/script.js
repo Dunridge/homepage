@@ -1,4 +1,5 @@
-const guitarContainer = document.getElementById("guitar-container");
+const guitarContainer1 = document.getElementById("guitar-container-1");
+const guitarContainer2 = document.getElementById("guitar-container-2");
 const musicPlayer = document.getElementById("music-player");
 
 // get all skills
@@ -29,7 +30,12 @@ $(document).ready(
     var widget = SC.Widget(iframeElement);
     // api methods -- https://developers.soundcloud.com/docs/api/html5-widget#methods
     
-    guitarContainer.addEventListener("click", () => {
+    guitarContainer1.addEventListener("click", () => {
+      widget.setVolume(40);
+      widget.toggle();
+    });
+
+    guitarContainer2.addEventListener("click", () => {
       widget.setVolume(40);
       widget.toggle();
     });
