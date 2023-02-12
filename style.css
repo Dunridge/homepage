@@ -69,12 +69,14 @@ body {
     overflow: hidden;
 }
 
+/* TODO: fix this padding issue */
+
 .refugee-status {
-    display: flex;
+    display: flex !important;
 }
 
 .refugee-text {
-    padding-left: 4px;
+    padding-left: 4px !important;
 }
 
 /* .work-authorization {
