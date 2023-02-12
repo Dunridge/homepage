@@ -69,6 +69,18 @@ body {
     overflow: hidden;
 }
 
+.refugee-status {
+    display: flex;
+}
+
+.refugee-text {
+    padding-left: 4px;
+}
+
+/* .work-authorization {
+    font-size: 6px;
+} */
+
 /* TODO: uncomment if this doesn't work in the future */
 /* .profileText .img8x img {
     position: absolute;
